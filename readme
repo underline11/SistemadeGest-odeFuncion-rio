@@ -1,0 +1,43 @@
+# Sistema de Gestão de Funcionários
+
+## Descrição
+
+Este projeto é um sistema de gestão de funcionários para uma organização, utilizando um banco de dados MySQL. O sistema inclui a criação de tabelas para departamentos, funcionários e salários, além de realizar operações de inserção, consulta, atualização e exclusão de dados. O gerenciamento de chaves estrangeiras é implementado para assegurar a integridade referencial dos dados.
+
+## Estrutura do Banco de Dados
+
+- **Departamentos**: Contém informações sobre os departamentos da empresa.
+- **Funcionarios**: Armazena dados dos funcionários, incluindo o departamento ao qual pertencem.
+- **Salarios**: Registra os salários dos funcionários com datas específicas.
+
+## Funcionalidades
+
+1. **Criação do Banco de Dados e Tabelas**
+2. **Inserção de Dados**
+3. **Consultas SQL**:
+   - Listar todos os funcionários e seus respectivos departamentos.
+   - Mostrar o salário total de cada departamento.
+   - Verificar salários históricos de um funcionário específico.
+4. **Atualização de Dados**
+5. **Exclusão de Dados com Gerenciamento de Chaves Estrangeiras**
+
+## Configuração do Projeto
+
+1. **Criação do Banco de Dados e Tabelas**:
+   - Execute o script SQL `create_tables.sql` para criar o banco de dados e as tabelas necessárias.
+2. **Inserção de Dados**:
+   - Execute o script SQL `insert_data.sql` para inserir dados fictícios nas tabelas.
+3. **Execução de Consultas e Operações**:
+   - Utilize o script SQL `queries_operations.sql` para executar as consultas e operações descritas.
+
+## Requisitos
+
+- MySQL
+
+## Contribuições
+
+Sinta-se à vontade para contribuir com melhorias ou correções para este projeto. Por favor, faça um fork do repositório e envie um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
