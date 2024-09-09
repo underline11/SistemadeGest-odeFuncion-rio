@@ -1,0 +1,18 @@
+Projeto: Sistema de Gestão de Funcionários
+
+Este projeto visa desenvolver um sistema de gestão de funcionários para uma organização. O sistema utiliza um banco de dados MySQL para armazenar e gerenciar informações sobre departamentos, funcionários e salários. As principais funcionalidades incluem a criação de tabelas, inserção de dados, execução de consultas para relatórios e análise de salários, bem como operações de atualização e exclusão de dados com gerenciamento de restrições de chave estrangeira.
+
+Funcionalidades:
+Criação do Banco de Dados e Tabelas:
+
+Criação do banco de dados GestaoFuncionarios.
+Tabelas para Departamentos, funcionarios e salarios.
+Operações de Manipulação de Dados:
+
+Inserção de dados fictícios nas tabelas.
+Consultas para listar funcionários e seus departamentos, calcular o salário total por departamento, e verificar salários históricos.
+Atualização de salários e nomes de departamentos.
+Exclusão de registros com gerenciamento de chaves estrangeiras.
+Gerenciamento de Chaves Estrangeiras:
+
+Configuração de restrições de chave estrangeira e exclusão em cascata.
